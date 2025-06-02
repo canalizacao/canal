@@ -122,6 +122,8 @@ margin: 16px auto;
 
 footer {
     grid-column: 1 / -1;
+    text-align: center;
+    padding: 8px
 }
 
 p {
@@ -201,4 +203,40 @@ p {
 text-align: center;
 font-size: 18px;
 }
+
+.texto_eu {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+footer {
+    margin-top: 8px;
+}
+}
+
+
+.eufoto {
+    width: 200px;
+    height: auto;
+    margin: 18px auto;
+    display: block;
+
+}
+.texto_eu {
+    font-family: ariel, serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px;
+}
+
+#voltar {
+ text-align: center;
+}
+.triqueta {
+  width: 56px; 
+}
+.p{
+    color: orange;
+    text-align: center;
+    margin-bottom: 8px;
 }
