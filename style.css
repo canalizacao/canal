@@ -74,7 +74,7 @@ li {
 }
 .main {
     grid-area: main;
-    background-color: #B0C4DE;
+    background-color: #D8BFD8;
     padding: 10px;
    
     border-radius: 8px;
@@ -105,7 +105,7 @@ li {
 .col2{
     grid-area: col2;
     padding:10px;
-    background-color: #DCDCDC;
+    background-color: #FFFFF0;
     border-radius: 8px;
     
    
@@ -152,11 +152,12 @@ p {
 
 @media (max-width: 600px) {
     .menu {
-        width: 100px;
+       width: 250px;
         max-width: 100%;
+        margin: 8px auto;
     }
     .col1 {
-        width: 100px;
+       
         max-width: 100%;
     }
     .amor {
@@ -168,6 +169,19 @@ p {
         margin: 16px auto;
         display: block;
     }
+
+    .grid-container {
+    display: grid;
+    grid-template-areas:
+    "header"
+    "menu" 
+    "main"
+    "full"
+    "col1" 
+    "col2"
+    "footer";
+
+    grid-template-columns: 1fr;
 }
 
 @media (min-width: 769px) {
