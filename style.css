@@ -145,7 +145,17 @@ p {
     margin-left: 22px;
     margin-top: -5px;
 }
-
+@media (max-width: 600) {
+    .menu {
+        width: 100px;
+    }
+    .col1 {
+        width: 100px;
+    }
+    .amor {
+        display: none;
+    }
+}
 
 @media (min-width: 769px) {
 
