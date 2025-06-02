@@ -63,10 +63,9 @@ li {
 
 .om {
     width: 50px;
-    margin-top: 16px auto;
-    align-items: center;
-   display: block;
+    margin: 0 auto;
     
+  
 }
 .envel{
     display:block;
@@ -183,12 +182,10 @@ p {
 
     grid-template-columns: 1fr;
 }
-
+}
 @media (min-width: 769px) {
 
- .grid-container {
-     align-items: stretch;
- }   
+   
 .om {
     width: 50px;
     height: auto;
@@ -197,6 +194,10 @@ p {
       
 }
 
+.amor{
+    display: none;
+    
+}
 .main {
     padding: 46px;
     text-align: center;
@@ -210,9 +211,7 @@ p {
     width: 100%;
     font-size: 20px;
 }
-.amor {
-    display: none;
-}
+
 .full {
 text-align: center;
 font-size: 18px;
@@ -227,6 +226,9 @@ footer {
     margin-top: 8px;
 }
 }
+
+
+
 
 
 .eufoto {
@@ -254,4 +256,72 @@ footer {
     text-align: center;
     margin-bottom: 8px;
     font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.grid-container-deuses {
+    display: grid;
+    grid-template-areas: 
+    "art1 mainn art2";
+
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-rows: auto;
+    gap: 10px;
+}
+
+.art1 {
+    grid-area: art1;
+    margin: 0 auto;
+    
+   
+}
+
+.mainn {
+    grid-area: mainn;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.art2 {
+    grid-area: art2;
+    margin: 0 auto;
+  
+}
+
+.img_deuses {
+    width: 90px;
+    height: auto;
+    margin-top: 16px;
+    
+}
+h3{
+    color: #B8860B;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    margin-top: 16px;
+}
+
+.deuses_lista {
+    margin-top: 16px;
+   
+}
+
+.hec {
+    width: 300px;
+    height: auto;
+    margin: 12px auto;
+    display: block;
+}
+
+h1{
+    color: #B8860B;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+}
+
+.hec_texto {
+    padding: 16px;
 }
