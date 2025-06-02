@@ -65,10 +65,11 @@ li {
     width: 50px;
     margin-top: 16px auto;
     align-items: center;
+   display: block;
     
 }
 .envel{
-    display:block
+    display:block;
     margin: 0 auto;
 }
 .main {
@@ -143,8 +144,9 @@ p {
     line-height: 2;
     letter-spacing: 0.5px;
     margin-left: 22px;
-    margin-top: -5px;
+    
 }
+
 @media (max-width: 600) {
     .menu {
         width: 100px;
@@ -154,6 +156,12 @@ p {
     }
     .amor {
         display: none;
+    }
+    .om {
+        display: block;
+        justify-items: center;
+        margin: 16px auto;
+        display: block;
     }
 }
 
@@ -165,18 +173,17 @@ p {
 .om {
     width: 50px;
     height: auto;
-    margin-left: 120px;    
+    display: block;
+    margin: 16px auto;
+      
 }
 
 .main {
     padding: 46px;
     text-align: center;
-    font-size: 20px;
-}  
-img {
-    margin-left: 420px;
-    margin-top: 16px;
-} 
+   font-size: 20px;
+}
+
 .menu {
     width: 100%;
 }
@@ -189,4 +196,5 @@ img {
 }
 .full {
 text-align: center;
+}
 }
