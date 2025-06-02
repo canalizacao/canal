@@ -120,8 +120,17 @@ p {
 }
 
 img {
-    margin-left: 110px;
-    margin-top: 16px;
+   margin: 16px auto;
+}
+
+.amor {
+    font-family: 'MysteryQuest', cursive;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    line-height: 1;
+    letter-spacing: 0.5px;
+
 }
 
 @media (min-width: 769px) {
@@ -150,5 +159,8 @@ img {
 .col1 {
     width: 100%;
     font-size: 20px;
+}
+.amor {
+    display: none;
 }
 }
