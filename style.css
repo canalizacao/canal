@@ -117,6 +117,7 @@ p {
 
 .menu, .col1, .col2 {
     word-wrap: break-word;
+    line-height: 2;
 }
 
 img {
