@@ -162,6 +162,8 @@ a { text-decoration: none;}
     }
     .amor {
        font-size: 22px;
+       margin: 0 auto;
+       display: block;
     }
     .om {
         display: block;
@@ -191,7 +193,14 @@ a { text-decoration: none;}
 
     grid-template-columns: 1fr;
 }
+
+.img_deuses {
+    width: 46px;
 }
+}
+
+
+
 @media (min-width: 769px) {
 
    
