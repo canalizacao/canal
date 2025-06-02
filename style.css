@@ -83,18 +83,22 @@ li {
 
 .col1 {
     grid-area: col1;
-    background-color: green;
+    background-color: #FFA07A;
     padding:10px;
+    border-radius: 8px;;
+    
 }
 
 .col2{
     grid-area: col2;
     padding:10px;
+    background-color: #FFFACD;
+    border-radius: 8px;
 }
 
 .footer {
     grid-area: footer;
-    background-color: black;
+ 
     text-align: center;
     grid-column: 1 / -1;
 }
@@ -103,6 +107,9 @@ footer {
     grid-column: 1 / -1;
 }
 
+p {
+    text-align: center;
+}
 @media (min-width: 769px) {
 
  .grid-container {
