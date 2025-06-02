@@ -311,9 +311,9 @@ a{
 }
 
 .img_deuses {
-    width: 90px;
+    width: 60px;
     height: auto;
-    margin-top: 16px;
+    margin: 16px auto;
     
 }
 h3{
