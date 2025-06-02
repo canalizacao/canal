@@ -169,6 +169,14 @@ a { text-decoration: none;}
         margin: 16px auto;
         display: block;
     }
+    .art1 {
+        width: 45px;
+        height: auto;
+    }
+    .art2 {
+        width: 45px;
+        height: auto;
+    }
 
     .grid-container {
     display: grid;
@@ -321,8 +329,16 @@ h1{
     color: #B8860B;
     text-align: center;
     font-family: 'Merienda', cursive;
+    
 }
 
 .hec_texto {
     padding: 16px;
+}
+
+.merienda-<uniquifier> {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
