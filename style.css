@@ -94,9 +94,8 @@ li {
     width: 100px;
     
 }
-.c2 {
-    margin:16px auto;
-}
+
+
 .col2{
     grid-area: col2;
     padding:10px;
