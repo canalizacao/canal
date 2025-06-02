@@ -46,6 +46,7 @@ body {
     padding: 10px;
     border-radius: 8px;
     width: 100px;
+  
     
  
 
@@ -62,8 +63,8 @@ li {
 
 .om {
     width: 50px;
-    margin-left: 12px;
-    margin-top: 16px;
+    margin-top: 16px auto;
+    align-items: center;
 }
 
 .main {
@@ -92,14 +93,20 @@ li {
     width: 100px;
     
 }
-
+.c2 {
+    margin:16px auto;
+}
 .col2{
     grid-area: col2;
     padding:10px;
     background-color: #DCDCDC;
     border-radius: 8px;
+    
+   
 }
-
+.ajusteenvelope {
+margin: 16px auto;
+}
 .footer {
     grid-area: footer;
  
@@ -115,26 +122,24 @@ p {
     text-align: center;
 }
 
-.menu, .col1, .col2 {
+.menu, .col1 {
     word-wrap: break-word;
     line-height: 2;
     
 }
 
 
-img {
-   margin: 16px auto;
-}
+
 
 .amor {
     font-family: 'MysteryQuest', cursive;
-    font-size: 60px;
+    font-size: 50px;
     color: black;
     text-align: center;
     line-height: 2;
     letter-spacing: 0.5px;
-    margin-left: 24px;
-    margin-top: 0;
+    margin-left: 22px;
+    margin-top: -5px;
 }
 
 @media (min-width: 769px) {
