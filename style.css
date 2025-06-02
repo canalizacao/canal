@@ -65,8 +65,11 @@ li {
     width: 50px;
     margin-top: 16px auto;
     align-items: center;
+    
 }
-
+.envel{
+    margin: 0 auto;
+}
 .main {
     grid-area: main;
     background-color: #B0C4DE;
@@ -133,7 +136,7 @@ p {
 
 .amor {
     font-family: 'MysteryQuest', cursive;
-    font-size: 50px;
+    font-size: 40px;
     color: black;
     text-align: center;
     line-height: 2;
@@ -141,6 +144,7 @@ p {
     margin-left: 22px;
     margin-top: -5px;
 }
+
 
 @media (min-width: 769px) {
 
@@ -172,4 +176,6 @@ img {
 .amor {
     display: none;
 }
+.full }
+text-align: center;
 }
