@@ -45,6 +45,7 @@ body {
     background-color: #BDB76B;
     padding: 10px;
     border-radius: 8px;
+    width: 100px;
     
  
 
@@ -69,7 +70,7 @@ li {
     grid-area: main;
     background-color: #B0C4DE;
     padding: 10px;
-    width: 100%;
+   
     border-radius: 8px;
    
 
@@ -87,7 +88,8 @@ li {
     grid-area: col1;
     background-color: #FFA07A;
     padding:10px;
-    border-radius: 8px;;
+    border-radius: 8px;
+    width: 100px;
     
 }
 
@@ -136,10 +138,17 @@ img {
 .main {
     padding: 46px;
     text-align: center;
+    font-size: 20px;
 }  
 img {
     margin-left: 420px;
     margin-top: 16px;
 } 
-
+.menu {
+    width: 100%;
+}
+.col1 {
+    width: 100%;
+    font-size: 20px;
+}
 }
