@@ -126,11 +126,14 @@ img {
 
 .amor {
     font-family: 'MysteryQuest', cursive;
-    font-size: 30px;
+    font-size: 60px;
     color: black;
     text-align: center;
-    line-height: 1;
+    line-height: 1.5;
     letter-spacing: 0.5px;
+    margin-left: 24px;
+   
+
 
 }
 
