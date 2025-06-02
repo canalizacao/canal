@@ -77,9 +77,10 @@ li {
 
 .full {
     grid-area: full;
-    background-color: yellow;
+ 
     padding: 10px;
     grid-column: 1 / -1;
+    border-radius: 8px;
 }
 
 .col1 {
@@ -93,7 +94,7 @@ li {
 .col2{
     grid-area: col2;
     padding:10px;
-    background-color: #FFFACD;
+    background-color: #DCDCDC;
     border-radius: 8px;
 }
 
@@ -111,6 +112,16 @@ footer {
 p {
     text-align: center;
 }
+
+.menu, .col1, .col2 {
+    word-wrap: break-word;
+}
+
+img {
+    margin-left: 110px;
+    margin-top: 16px;
+}
+
 @media (min-width: 769px) {
 
  .grid-container {
@@ -125,6 +136,10 @@ p {
 .main {
     padding: 46px;
     text-align: center;
-}   
+}  
+img {
+    margin-left: 420px;
+    margin-top: 16px;
+} 
 
 }
