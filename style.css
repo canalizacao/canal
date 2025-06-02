@@ -146,28 +146,7 @@ p {
     margin-top: -5px;
 }
 
-@media (max-width: 600px) {
-    .grid-container{
-        grid-template-areas: 
-        "header"
-        "menu"
-     "main"
-    "full"
-    "col1" 
-    "col2"
-    "footer";
 
-    grid-template-columns: 1fr;
-    }
-   .om {
-    margin: 0 auto;
-   }
-   .envel {
-    display: block;
-    margin: 0 auto;
-   }
-  
-}
 @media (min-width: 769px) {
 
  .grid-container {
