@@ -360,3 +360,47 @@ h1{
     display: block;
 }
 
+.cris_h1 {
+    margin-top: 16px;
+    text-align: center;
+}
+
+.foto_cristais {
+    width: 400px;
+    height: auto;
+    margin: 16px auto;
+    display: block;
+}
+
+.grid-container-cristais {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-area: 
+    "fotos_cristais texto_cristais"
+    "fotos_cristais2 texto_cristais2";
+
+    grid-template-rows: auto;
+    gap: 10px;
+
+    margin-top: 50px;
+}
+.fotos_cristais, .fotos_cristais2 {
+    margin: 0 auto;
+    padding: 8px;
+}
+.texto_cristais, .texto_cristais2 {
+    padding: 8px;
+}
+.cristal {
+    width: 200px;
+    height: 250px;
+}
+
+.prece_h1 {
+    margin-top: 16px;
+}
+.texto_prece {
+    margin: 10px auto;
+    padding: 20px;
+    margin-bottom: 50px;
+}
