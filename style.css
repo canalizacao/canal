@@ -204,14 +204,9 @@ a { text-decoration: none;}
 
 @media (min-width: 769px) {
 
-   
-.om {
-    width: 50px;
-    height: auto;
-    display: block;
-    margin: 16px auto;
-      
-}
+
+          
+
 
 .amor{
     display: none;
@@ -234,6 +229,9 @@ a { text-decoration: none;}
 .full {
 text-align: center;
 font-size: 18px;
+padding-left:46px;
+padding-right: 46px;
+
 }
 
 .texto_eu {
@@ -244,6 +242,7 @@ font-size: 18px;
 footer {
     margin-top: 8px;
 }
+
 }
 
 
