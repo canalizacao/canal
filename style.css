@@ -374,7 +374,7 @@ h1{
 
 .grid-container-cristais {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 30% 1fr;
     grid-area: 
     "fotos_cristais texto_cristais"
     "fotos_cristais2 texto_cristais2";
