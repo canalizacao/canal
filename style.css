@@ -342,7 +342,7 @@ h1{
     
 }
 
-.hec_texto {
+.ajuste_texto {
     padding: 16px;
 }
 
@@ -352,3 +352,11 @@ h1{
   font-weight: <weight>;
   font-style: normal;
 }
+
+.jes {
+    width: 300px;
+    height: auto;
+    margin: 12px auto;
+    display: block;
+}
+
