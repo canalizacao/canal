@@ -1,8 +1,8 @@
 const respostas = [
-    "sim",
-    "não",
-    "talvez",
-    "Se concentre",
+    "Sim",
+    "Não",
+    "Talvez",
+    "Se concentre mais",
     "Chances favoráveis",
 ]
 
