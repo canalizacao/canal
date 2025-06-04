@@ -8,7 +8,6 @@ body {
     background-color: blanchedalmond;
 }
 
-
 .grid-container {
     display: grid;
     grid-template-areas:
@@ -24,8 +23,6 @@ body {
     grid-template-rows: auto;
     gap: 10px;
     padding: 10px;
-
-      
 }
 
 .header {
@@ -33,6 +30,7 @@ body {
     grid-area: header;
     margin:0;
 }
+
 .arte_index{
     width: 300px;
     height: auto;
@@ -45,16 +43,12 @@ body {
     background-color: #BDB76B;
     padding: 10px;
     border-radius: 8px;
-  
-  
-    
- 
-
 }
+
 ul {
     list-style: none;
-
 }
+
 li {
     margin-top: 5px;
     text-align: center;
@@ -64,21 +58,20 @@ li {
 .om {
     width: 50px;
     margin: 0 auto;
-    
-  
 }
-.envel{
+
+.envel {
     display:block;
     margin: 0 auto;
+    margin-top: 16px;
 }
+
 .main {
     grid-area: main;
     background-color: #D8BFD8;
     padding: 10px;
    
     border-radius: 8px;
-   
-
 }
 
 .full {
@@ -96,22 +89,19 @@ li {
     background-color: #FFA07A;
     padding:10px;
     border-radius: 60px;
-  
-    
 }
-
 
 .col2{
     grid-area: col2;
     padding:10px;
     background-color: #FFFFF0;
     border-radius: 8px;
-    
-   
 }
+
 .ajusteenvelope {
 margin: 16px auto;
 }
+
 .footer {
     grid-area: footer;
  
@@ -132,11 +122,7 @@ p {
 .menu, .col1, .col2 {
     word-wrap: break-word;
     line-height: 2;
-    
 }
-
-
-
 
 .amor {
     font-family: 'MysteryQuest', cursive;
@@ -146,74 +132,19 @@ p {
     line-height: 2;
     letter-spacing: 0.5px;
     margin-left: 20px;
-    
-}
-a { text-decoration: none;}
-
-@media (max-width: 600px) {
-    .menu {
-       width: 250px;
-        max-width: 100%;
-        margin: 8px auto;
-    }
-    .col1 {
-       
-        max-width: 100%;
-    }
-    .amor {
-       font-size: 22px;
-       margin: 0 auto;
-       display: block;
-    }
-    .om {
-        display: block;
-        justify-items: center;
-        margin: 16px auto;
-        display: block;
-    }
-    .art1 {
-        width: 45px;
-        height: auto;
-    }
-    .art2 {
-        width: 45px;
-        height: auto;
-    }
-
-    .grid-container {
-    display: grid;
-    grid-template-areas:
-    "header"
-    "menu" 
-    "main"
-    "full"
-    "col1" 
-    "col2"
-    "footer";
-
-    grid-template-columns: 1fr;
 }
 
-.img_deuses {
-    width: 40px;
-    height: auto;
+a { 
+    text-decoration: none;
 }
-
-}
-
-
-
-
-
-
 
 .eufoto {
     width: 200px;
     height: auto;
     margin: 18px auto;
     display: block;
-
 }
+
 .texto_eu {
     font-family: ariel, serif;
     font-size: 16px;
@@ -224,17 +155,19 @@ a { text-decoration: none;}
 #voltar {
  text-align: center;
 }
+
 .triqueta {
   width: 56px; 
 }
-.p{
+
+.p {
     color: orange;
     text-align: center;
     margin-bottom: 8px;
     font-size: 14px;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -251,28 +184,25 @@ a{
 .art1 {
     grid-area: art1;
     margin: 0 auto;
-    
-   
 }
 
 .mainn {
     grid-area: mainn;
     text-align: center;
     margin-top: 20px;
-
 }
+
 .art2 {
     grid-area: art2;
     margin: 0 auto;
-  
 }
 
 .img_deuses {
     width: 60px;
     height: auto;
     margin: 16px auto;
-    
 }
+
 h3{
     color: #B8860B;
     text-align: center;
@@ -283,21 +213,22 @@ h3{
 
 .deuses_lista {
     margin-top: 16px;
-   
 }
 
 .hec {
     width: 300px;
     height: auto;
-    margin: 12px auto;
-    display: block;
 }
 
 h1{
     color: #B8860B;
     text-align: center;
     font-family: 'Merienda', cursive;
-    
+}
+
+.img_deuses {
+    margin: 16px auto;
+    display: block;
 }
 
 .ajuste_texto {
@@ -342,13 +273,16 @@ h1{
 
     margin-top: 50px;
 }
+
 .fotos_cristais, .fotos_cristais2 {
     margin: 0 auto;
     padding: 8px;
 }
+
 .texto_cristais, .texto_cristais2 {
     padding: 8px;
 }
+
 .cristal {
     width: 100px;
     height: 200px;
@@ -357,6 +291,7 @@ h1{
 .prece_h1 {
     margin-top: 16px;
 }
+
 .texto_prece {
     margin: 10px auto;
     padding: 20px;
@@ -370,24 +305,21 @@ h1{
 
 @media (min-width: 769px) {
 
-
-          
-
-
 .amor{
     display: none;
-    
 }
+
 .main {
     padding: 46px;
     text-align: center;
    font-size: 20px;
-   padding: 20px;
+   padding: 80px;
 }
 
 .menu {
     width: 100%;
 }
+
 .col1 {
     width: 100%;
     font-size: 20px;
@@ -398,7 +330,6 @@ text-align: center;
 font-size: 18px;
 padding-left:46px;
 padding-right: 46px;
-
 }
 
 .texto_eu {
@@ -406,8 +337,135 @@ padding-right: 46px;
     text-align: center;
     margin: 0 auto;
 }
+
 footer {
     margin-top: 8px;
 }
+ 
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    "header"
+    "menu main"
+    "full"
+    "col1 col2"
+    "footer";
+  
+    
+    grid-template-columns:
+    1fr 3fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    padding: 10px;
+    align-items: stretch;
+}
+
+.envel {
+    margin-top: 16px;
+}
+
+.col2 {
+    padding: 22px;
+}
+
+.texto_prece {
+    width: 80%;
+    line-height: 1.5;
+}
+
+.texto_cristais {
+    width: 80%;
+}
+
+.foto_cristais {
+    width: 450px;
+    height: auto;
+}
+
+.img_deuses {
+    width: 80px;
+    height: auto;
+    margin: 16px auto;
+    display: block;
+}
+
+.grid-container-deuses {
+    display: grid;
+    grid-template-areas: 
+    "art1 mainn art2";
+
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: auto;
+    gap: 10px;
+}
+
+.art1 {
+    margin-left: 150px;
+}
+
+.art2 {
+    margin-right: 150px;
+}
 
 }
+
+
+
+
+@media (max-width: 600px) {
+    .menu {
+       width: 250px;
+        max-width: 100%;
+        margin: 8px auto;
+    }
+
+    .col1 {
+       
+        max-width: 100%;
+    }
+
+    .amor {
+       font-size: 22px;
+       margin: 0 auto;
+       display: block;
+    }
+
+    .om {
+        display: block;
+        justify-items: center;
+        margin: 16px auto;
+        display: block;
+    }
+
+    .art1 {
+        width: 45px;
+        height: auto;
+    }
+    
+    .art2 {
+        width: 45px;
+        height: auto;
+    }
+
+    .grid-container {
+    display: grid;
+    grid-template-areas:
+    "header"
+    "menu" 
+    "main"
+    "full"
+    "col1" 
+    "col2"
+    "footer";
+
+    grid-template-columns: 1fr;
+}
+
+.img_deuses {
+    width: 40px;
+    height: auto;
+}
+
+}
+
+
